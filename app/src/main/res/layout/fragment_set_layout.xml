@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_medium">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tv_currentName"
+        android:textSize="@dimen/text_size_medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_currentSID"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_below="@+id/tv_currentName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:id="@+id/tv_historyDevice"
+        android:textSize="@dimen/text_size_medium"
+        android:text="@string/history_SID"
+        android:layout_below="@+id/tv_currentSID" />
+
+    <ListView
+        android:id="@+id/listView_SID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_below="@+id/textView_historySID">
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/btnAddSID"
+        android:layout_width="@dimen/image_size_large"
+        android:layout_height="@dimen/image_size_large"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_add" />
+
+</RelativeLayout>

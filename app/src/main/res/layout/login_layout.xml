@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_login_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/margin_small">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="@dimen/picture_width_large"
+        android:layout_height="@dimen/picture_height_large"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small">
+
+        <TextView
+            android:id="@+id/tv_deviceSID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_large"
+            android:gravity="center_vertical"
+            android:text="@string/device_SID"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_medium" />
+
+        <EditText
+            android:id="@+id/et_SID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:inputType="number"
+            android:hint="@string/device_SID_input"
+            android:textSize="@dimen/text_size_medium" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="@string/login"
+        android:textSize="@dimen/text_size_medium" />
+    <ProgressBar
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/pb_login"
+        android:layout_width="@dimen/image_size_normal"
+        android:layout_height="@dimen/image_size_normal"
+        android:visibility="invisible"/>
+
+</LinearLayout>

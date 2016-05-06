@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+
+    <dimen name="image_size_normal">32dp</dimen>
+    <dimen name="image_size_small">16dp</dimen>
+    <dimen name="image_size_large">64dp</dimen>
+
+    <dimen name="picture_width_large">320dp</dimen>
+    <dimen name="picture_height_large">142dp</dimen>
+    <dimen name="picture_width_small">140dp</dimen>
+    <dimen name="picture_height_small">140dp</dimen>
+
+    <!-- list_item_location  -->
+    <dimen name="cycle_radius_small">20dp</dimen>
+    <dimen name="cycle_radius_large">32dp</dimen>
+    <dimen name="line_width">2dp</dimen>
+    <dimen name="margin_line">17dp</dimen>
+    <dimen name="margin_cycle_small">0dp</dimen>
+    <dimen name="margin_cycle_large">2dp</dimen>
+
+    <!-- title -->
+    <dimen name="button_size">24dp</dimen>
+</resources>

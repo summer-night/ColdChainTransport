@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_medium">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/imageView_bigNode"
+            android:layout_height="@dimen/image_size_normal"
+            android:layout_width="@dimen/image_size_normal"
+            android:background="@drawable/node"
+            android:layout_marginStart="@dimen/margin_cycle_large"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:text="@string/location_info"
+            android:textSize="@dimen/text_size_medium" />
+
+        <Switch
+            android:id="@+id/switch_Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/locate"
+            android:checked="false"
+            android:textSize="@dimen/text_size_medium"
+            android:thumbTintMode="screen"
+            android:textAlignment="textEnd" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:transcriptMode="alwaysScroll">
+    </ListView>
+
+</LinearLayout>

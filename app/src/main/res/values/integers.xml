@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="LOCATION_SERVICE__LOCATE_DURATION">10000</integer>
+    <integer name="LOCATION_SERVICE_UPLOAD_DURATION">300000</integer>
+</resources>

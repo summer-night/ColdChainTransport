@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">冷链运输</string>
+    <string name="main_activity_name">冷链运输</string>
+    <string name="bluetooth_activity_name">蓝牙</string>
+
+    <!-- login activity  -->
+    <string name="device_SID">设备编号：</string>
+    <string name="device_SID_input">请输入设备编号</string>
+    <string name="login">登陆</string>
+    <string name="please_input_correct_SID">请输入正确的设备编号</string>
+    <string name="cannot_find_device">未查询到设备</string>
+    <string name="login_activity_name">登陆</string>
+
+    <!-- location activity -->
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="dialog_info">是否退出应用程序？</string>
+
+    <!-- location fragment  -->
+    <string name="location_info">位置信息</string>
+    <string name="locate">开始运输</string>
+    <string name="fragment_locate">定位</string>
+    <string name="dialog_delete_info">是否清除定位信息？</string>
+
+    <!-- bluetooth activity  -->
+    <string name="bluetooth">蓝牙</string>
+    <string name="bluetooth_adapter_open_success">蓝牙打开成功</string>
+    <string name="bluetooth_adapter_close_success">蓝牙已经关闭</string>
+    <string name="bluetooth_adapter_is_open">蓝牙已经打开</string>
+    <string name="bluetooth_adapter_is_close">蓝牙尚未打开</string>
+    <string name="bluetooth_adapter_open_failed">蓝牙打开失败</string>
+    <string name="found_device">发现设备</string>
+    <string name="paired_device">配对设备</string>
+    <string name="connect_failed">连接失败</string>
+    <string name="under_printing">正在打印，请稍等。。。</string>
+    <string name="refresh">刷新</string>
+
+    <!-- splash activity -->
+    <string name="copyright">by 天大天发科技有限公司</string>
+    <string name="version">V1.0</string>
+    <string name="description">天大天发与你同在</string>
+    <string name="no_connection">无网络连接\n\n请检查网络状态</string>
+    <string name="get_server_info_error">获取服务器信息出错</string>
+    <string name="SID_invalid">SID过期，请重新输入</string>
+    <string name="get_server_timeout_error">连接服务器超时</string>
+
+    <!-- set fragment -->
+    <string name="history_SID">历史设备</string>
+    <string name="add_SID">添加新设备</string>
+    <string name="current_name">当前设备归属：</string>
+    <string name="current_SID">当前设备SID：</string>
+    <string name="change_device_info">更换设备将清除定位信息\n是否继续？</string>
+    <string name="fragment_set">设置</string>
+
+    <!-- data fragment -->
+    <string name="fragment_data">数据</string>
+    <string name="download_data">正在下载数据，请稍后</string>
+    <string name="data_error">数据错误</string>
+    <string name="download_error">网络异常，无法获取服务器信息</string>
+    <string name="unknown_device">未知设备</string>
+    <string name="hint_start_location">开始位置： </string>
+    <string name="hint_current_location">当前位置： </string>
+    <string name="location_not_begin">未开始定位</string>
+
+    <!-- database -->
+    <string name="database_name">transport</string>
+    <string name="table_devices">devices</string>
+    <string name="table_location">location</string>
+
+    <!-- network -->
+    <string name="correspond_start">*</string>
+    <string name="correspond_end">#</string>
+    <string name="server_ip">192.168.141.137</string>
+    <integer name="server_port">5000</integer>
+    <string name="response_SID_valid">*OK</string>
+
+
+    <string name="broadcast_filter_str">Location information from Location Service to Location Fragment.</string>
+
+    <!-- name -->
+    <string name="clear">清除</string>
+    <string name="print">打印</string>
+    <string name="search">搜索</string>
+
+    <string name="actionbar">工具栏</string>
+</resources>
